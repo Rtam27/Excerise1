@@ -126,7 +126,7 @@ namespace Exercise1
 
 
             while (isValidUnits == false) {
-                try
+                try // try catch block for parseInt exceptions.
                 {
                     Console.WriteLine("Please Input the Quantity of Product: ");
                     quantity = Console.ReadLine();
